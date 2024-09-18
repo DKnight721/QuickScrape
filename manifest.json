@@ -1,15 +1,15 @@
 {
-  "manifest_version": 3,
-  "name": "Easy Scrape",
-  "version": "1.0",
-  "permissions": ["activeTab"],
-  "background": {
-    "service_worker": "popup.js"
-  },
-  "action": {
-    "default_popup": "popup.html"
-  },
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';"
+    "manifest_version": 3,
+    "name": "Google Maps Easy Scrape",
+    "version": "1.0",
+    "description": "Quick Scrape",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "map.png",
+      "48": "map.png",
+      "128": "map.png"
+    }
   }
-}
