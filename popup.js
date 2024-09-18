@@ -1,8 +1,8 @@
-// Replace these with your actual Supabase URL and Key
-const supabaseUrl = "";
-const supabaseKey =
-  ""; // Use your actual API key
-const tableName = "business_listings"; // Your Supabase table name
+// // Replace these with your actual Supabase URL and Key
+// const supabaseUrl = "";
+// const supabaseKey =
+//   ""; // Use your actual API key
+// const tableName = "business_listings"; // Your Supabase table name
 
 document.addEventListener("DOMContentLoaded", function () {
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
